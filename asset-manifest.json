@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/hoohacks/static/css/main.0ed0f1af.chunk.css",
+    "main.js": "/hoohacks/static/js/main.560e5185.chunk.js",
+    "main.js.map": "/hoohacks/static/js/main.560e5185.chunk.js.map",
+    "runtime-main.js": "/hoohacks/static/js/runtime-main.4a8dd757.js",
+    "runtime-main.js.map": "/hoohacks/static/js/runtime-main.4a8dd757.js.map",
+    "static/css/2.150d169a.chunk.css": "/hoohacks/static/css/2.150d169a.chunk.css",
+    "static/js/2.4d0e5ec0.chunk.js": "/hoohacks/static/js/2.4d0e5ec0.chunk.js",
+    "static/js/2.4d0e5ec0.chunk.js.map": "/hoohacks/static/js/2.4d0e5ec0.chunk.js.map",
+    "index.html": "/hoohacks/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/hoohacks/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.0ed0f1af.chunk.css.map": "/hoohacks/static/css/main.0ed0f1af.chunk.css.map",
+    "static/js/2.4d0e5ec0.chunk.js.LICENSE.txt": "/hoohacks/static/js/2.4d0e5ec0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4a8dd757.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.4d0e5ec0.chunk.js",
+    "static/css/main.0ed0f1af.chunk.css",
+    "static/js/main.560e5185.chunk.js"
+  ]
+}
