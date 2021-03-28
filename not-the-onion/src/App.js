@@ -2,6 +2,7 @@ import { useState, useEffect } from "react"
 import { Modal, Jumbotron, Container, Row, Col, Button} from "react-bootstrap";
 import fakeArticles from './data/to.json'
 import realArticles from './data/nto.json'
+import "./style.css"
 
 
 function selectRandomArticles() {
@@ -37,7 +38,7 @@ function App() {
     if (correct.id === id) {
       updateScore((current) => current+1)
     } else {
-      console.log('Wrong')
+      updateScore((current) => 0)
     }
   }
 
@@ -53,27 +54,30 @@ function App() {
   // TODO hide background whilst changing 
   return (
     <>
-      <Modal show={showModal} backdrop="static">
+      <Modal show={showModal} centered backdrop="static">
         <Modal.Header>
           <Modal.Title>{wasCorrect ? "Well Done!" : "Uh-oh"}</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <a>{correct.link}</a>
-          <p>Current score: {score}</p>
+          <p><b>Link to real article :</b></p>
+          <a href={correct.link}>{correct.link}</a>
+          <p style={{marginTop: "20px"}}>Current score: {score}</p>
         </Modal.Body>
         <Modal.Footer>
           <Button onClick={() => {exitModal()}}>Next matchup</Button>
         </Modal.Footer>
       </Modal>
-      <Container>
+      
+      <div>
         {/* TODO: center score */}
-        <Row>{score}</Row>
-        <Row>
+        <div className="gameContainer">
           {/* TODO make these span page properly*/}
-          <Col><Article article={articleOne} selectCallback={selectCallback}/></Col>
-          <Col><Article article={articleTwo} selectCallback={selectCallback}/></Col>
-        </Row>
-      </Container>
+          <div className="leftCol"><Article article={articleOne} selectCallback={selectCallback}/></div>
+          <div className="rightCol"><Article article={articleTwo} selectCallback={selectCallback}/></div>
+        </div>
+        <h1 className="score">{score}</h1>
+        <h3 className="instructions">Click on the real article</h3>
+      </div>
     </>
   );
 }
@@ -81,10 +85,10 @@ function App() {
 function Article({article, selectCallback}) {
 
   return (
-    <Jumbotron fluid style={{padding: "0.5rem"}}>
+    <div className="articleBox" onClick={() => selectCallback(article?.id)}>
       <h1>{article?.title}</h1>
-      <Button onClick={() => selectCallback(article?.id)}>Select as real</Button>
-    </Jumbotron>
+      {/* <Button onClick={() => selectCallback(article?.id)}>Select as real</Button> */}
+    </div>
   );
 }
 
