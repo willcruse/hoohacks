@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/hoohacks/static/css/main.ae5a9d70.chunk.css",
-    "main.js": "/hoohacks/static/js/main.f50ed304.chunk.js",
-    "main.js.map": "/hoohacks/static/js/main.f50ed304.chunk.js.map",
-    "runtime-main.js": "/hoohacks/static/js/runtime-main.4a8dd757.js",
-    "runtime-main.js.map": "/hoohacks/static/js/runtime-main.4a8dd757.js.map",
-    "static/css/2.150d169a.chunk.css": "/hoohacks/static/css/2.150d169a.chunk.css",
-    "static/js/2.4d0e5ec0.chunk.js": "/hoohacks/static/js/2.4d0e5ec0.chunk.js",
-    "static/js/2.4d0e5ec0.chunk.js.map": "/hoohacks/static/js/2.4d0e5ec0.chunk.js.map",
-    "index.html": "/hoohacks/index.html",
-    "static/css/2.150d169a.chunk.css.map": "/hoohacks/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.ae5a9d70.chunk.css.map": "/hoohacks/static/css/main.ae5a9d70.chunk.css.map",
-    "static/js/2.4d0e5ec0.chunk.js.LICENSE.txt": "/hoohacks/static/js/2.4d0e5ec0.chunk.js.LICENSE.txt"
+    "main.css": "/news-or-fake-news/static/css/main.ae5a9d70.chunk.css",
+    "main.js": "/news-or-fake-news/static/js/main.f50ed304.chunk.js",
+    "main.js.map": "/news-or-fake-news/static/js/main.f50ed304.chunk.js.map",
+    "runtime-main.js": "/news-or-fake-news/static/js/runtime-main.a5955c39.js",
+    "runtime-main.js.map": "/news-or-fake-news/static/js/runtime-main.a5955c39.js.map",
+    "static/css/2.150d169a.chunk.css": "/news-or-fake-news/static/css/2.150d169a.chunk.css",
+    "static/js/2.4d0e5ec0.chunk.js": "/news-or-fake-news/static/js/2.4d0e5ec0.chunk.js",
+    "static/js/2.4d0e5ec0.chunk.js.map": "/news-or-fake-news/static/js/2.4d0e5ec0.chunk.js.map",
+    "index.html": "/news-or-fake-news/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/news-or-fake-news/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.ae5a9d70.chunk.css.map": "/news-or-fake-news/static/css/main.ae5a9d70.chunk.css.map",
+    "static/js/2.4d0e5ec0.chunk.js.LICENSE.txt": "/news-or-fake-news/static/js/2.4d0e5ec0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.4a8dd757.js",
+    "static/js/runtime-main.a5955c39.js",
     "static/css/2.150d169a.chunk.css",
     "static/js/2.4d0e5ec0.chunk.js",
     "static/css/main.ae5a9d70.chunk.css",
